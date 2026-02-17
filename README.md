@@ -1,3 +1,14 @@
+<p align="left">
+  <a href="https://www.linkedin.com/company/bytestack-labs/" target="_blank">
+    <img align="left" src="./docs/assets/InBug-White.png" alt="ByteStack Labs on LinkedIn" height="30" style="margin-right: 15px;" />
+  </a>
+  <br/>
+  <br/>
+  <em>Systems architecture for AI/ML ⇒ Rigorous analysis, upstream governance, and mathematical validation.</em>
+</p>
+
+---
+
 # ByteStack Labs
 
 > *Work begins at the system boundaries. Not at the implementation layer.*
