@@ -1,6 +1,6 @@
 # ByteStack Labs
 
-**Precision architecture for AI/ML-enabled systems.**
+**Precision architecture for AI/ML-enabled systems and the data and analytics layers they depend on.**
 
 ---
 
@@ -9,6 +9,7 @@
 ---
 
 #### [slm-autopsy](https://github.com/ByteStack-Labs/slm-autopsy)
+
 **A reproducible diagnostic investigation of silent failure in a fine-tuned SLM.**  
 A model scored 99.75% on evaluation and 90.0% on production inputs with shifted formatting. Zero crashes. Zero parse failures. 10% silent error rate. 82% confident while wrong. Full experiment pipeline, mathematical root-cause analysis, and verified results. Every number is reproducible from the repository.
 
