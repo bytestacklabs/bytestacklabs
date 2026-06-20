@@ -1,5 +1,5 @@
 # ByteStack Labs
-**Precision architecture for AI/ML-enabled systems and the data and analytics layers they depend on.**
+**Precision architecture for AI agents, ML systems, and the data and analytics layers they depend on.**
 
 ---
 
