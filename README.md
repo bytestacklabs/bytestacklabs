@@ -7,6 +7,14 @@
 
 ---
 
+#### [action-gate](https://github.com/ByteStack-Labs/action-gate)
+
+**The verification floor between an agent's decision and an irreversible action.**  
+Three gates run over the same 60 seeded decisions, 30 correct and 30 well-formed-wrong: a confidence gate that reads the agent's self-report, a judge gate that grades the decision's surface, and a reconciliation gate that re-derives the outcome from the source of truth and refuses when the two disagree. The first two approve 30 and 25 dangerous actions; reconciliation approves 0. verify.py re-derives every published figure from the committed fixtures, checks the README's numbers against the receipt, and exits non-zero if a single one fails to reproduce. Standard library, no model, no network.
+
+[![action-gate social preview](https://raw.githubusercontent.com/ByteStack-Labs/action-gate/main/docs/assets/action-gate-hero.png)](https://github.com/ByteStack-Labs/action-gate)
+
+---
 #### [agent-reliability](https://github.com/ByteStack-Labs/claude-plugins)
 **ByteStack Labs marketplace for Claude Code. Reliability skills that audit AI which passes evaluation and fails in production.**  
 production-autopsy reproduces the failure, quantifies the drop by slice, and isolates the root cause by ablation; calibration-guard and trajectory-eval land next. Each skill emits a verification script and a diagnostic report, committed unedited. Every figure re-derives from runnable code, and the script exits non-zero if a single one fails to reproduce.
